@@ -1,0 +1,14 @@
+header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  border-bottom: $main-border $header-border-color;
+  background-color: $primary-white-color;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+}

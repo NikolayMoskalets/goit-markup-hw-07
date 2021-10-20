@@ -1,0 +1,26 @@
+.submit-button {
+  padding: 10px 55px 10px 56px;
+  margin: 0 124px;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  border: none;
+  border-radius: 4px;
+  background-color: $accent-color;
+  color: $primary-white-color;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-hoover-color;
+  }
+}

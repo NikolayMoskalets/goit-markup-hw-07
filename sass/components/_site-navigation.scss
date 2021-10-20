@@ -1,0 +1,34 @@
+.site-nav {
+  display: flex;
+}
+
+.site-nav_item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.site-nav_link {
+  display: block;
+  padding: 32px 0;
+  color: $title-text-color; 
+  transition: color $main-animation;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  &.current-page {
+    position: relative;
+  }
+
+  &.current-page::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    background-color: $accent-color;
+    border-radius: 2px;
+  }
+}

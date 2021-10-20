@@ -1,0 +1,21 @@
+.logo {
+  display: block;
+  
+  font-family: $logo-font, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  
+  margin-right: 93px;
+  color: $accent-color;
+  text-decoration: none;
+
+    &-header {
+      color: $logo-black-color;
+    }
+
+    &-footer {
+      color: $primary-white-color;
+    }
+}

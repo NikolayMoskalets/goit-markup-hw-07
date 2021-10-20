@@ -1,0 +1,46 @@
+.features {
+  padding: 94px 0px;
+}
+
+.feature-list {
+  display: flex;
+
+  &_item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &_thumb {
+    width: 270px;
+    height: 120px;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+
+    border-radius: 4px;
+    background-color: $section-grey-color;
+  }
+
+  &_icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  &_title {
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    
+    color: $title-text-color;
+
+    text-transform: uppercase;
+  }
+
+  &_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+}

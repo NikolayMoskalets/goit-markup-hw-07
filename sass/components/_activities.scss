@@ -1,0 +1,48 @@
+.activities {
+  padding: 0px 0px 94px;
+
+  &-title {
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: $title-text-color;
+  }
+}
+
+.activity-list {
+  display: flex;
+  justify-content: space-between;
+
+  &_thumb {
+    position: relative;
+  }
+
+  &_overlay {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 70px;
+    width: 100%;
+    padding: 27px 0;
+
+    background-color: $overlays-grey-color;
+  }
+
+  &_text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    color: $primary-white-color;
+  }
+}
